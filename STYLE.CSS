@@ -1,0 +1,254 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('https://source.unsplash.com/1600x900/?travel,landscape');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .container {
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+header .btn {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #ff6a45;
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+section#services {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+section#services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+section#services .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section#services .service {
+    flex: 1;
+    margin: 1rem;
+    max-width: 300px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+section#services .service:hover {
+    transform: translateY(-10px);
+}
+
+section#services .service img {
+    width: 100%;
+    height: auto;
+}
+
+section#services .service h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+section#services .service p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 1rem 1rem;
+}
+
+section#about {
+    background-color: #ececec;
+    text-align: center;
+}
+
+section#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+section#about p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+section#testimonials {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+section#testimonials .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+section#testimonials .testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section#testimonials .testimonial {
+    flex: 1;
+    margin: 1rem;
+    max-width: 300px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+section#testimonials .testimonial p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+section#testimonials .testimonial h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+section#contact {
+    background-color: #fff;
+    text-align: center;
+}
+
+section#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+section#contact p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+section#contact .btn {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+section#contact .btn:hover {
+    background-color: #ff6a45;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #ff7e5f;
+}
